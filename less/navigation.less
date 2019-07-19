@@ -3,12 +3,22 @@ nav {
     display: flex;
     justify-content: space-between;
 
+    @media @mobile {
+        width: 90%;
+        }
+
+}
 
 a {
     font-size: 15px;
     color: @shark;
-    padding: 25px;
+    padding: 30px;
     text-decoration: none;
-    font-weight: bold;
-  }
+
+    @media @mobile {
+        margin: 0 auto;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        }
 }
